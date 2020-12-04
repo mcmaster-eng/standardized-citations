@@ -1,0 +1,676 @@
+[{
+    "author": "Bader, Richard F.W.",
+    "rank_ns": 714,
+    "comp_score": 4.71,
+    "total_cites": 22963,
+    "hindex": 69,
+    "hmindex": 43.11,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 27
+},{
+    "author": "Haykin, Simon",
+    "rank_ns": 1427,
+    "comp_score": 4.59,
+    "total_cites": 20450,
+    "hindex": 48,
+    "hmindex": 32.43,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 8
+},{
+    "author": "Pelton, Robert H.",
+    "rank_ns": 7289,
+    "comp_score": 4.24,
+    "total_cites": 11199,
+    "hindex": 51,
+    "hmindex": 30.87,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 186
+},{
+    "author": "Johari, G. P.",
+    "rank_ns": 8556,
+    "comp_score": 4.2,
+    "total_cites": 7988,
+    "hindex": 43,
+    "hmindex": 34.12,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 217
+},{
+    "author": "Luo, Zhi Quan",
+    "rank_ns": 8626,
+    "comp_score": 4.19,
+    "total_cites": 15685,
+    "hindex": 61,
+    "hmindex": 32.7,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 71
+},{
+    "author": "MacGregor, John",
+    "rank_ns": 12105,
+    "comp_score": 4.11,
+    "total_cites": 15411,
+    "hindex": 58,
+    "hmindex": 35.9,
+    "subfield": "Chemical Engineering",
+    "subfield_rank": 42
+},{
+    "author": "Emadi, Ali",
+    "rank_ns": 12363,
+    "comp_score": 4.1,
+    "total_cites": 14242,
+    "hindex": 54,
+    "hmindex": 29.05,
+    "subfield": "Electrical & Electronic Engineering",
+    "subfield_rank": 26
+},{
+    "author": "Giroux, Henry",
+    "rank_ns": 14385,
+    "comp_score": 4.06,
+    "total_cites": 3947,
+    "hindex": 32,
+    "hmindex": 31.5,
+    "subfield": "Education",
+    "subfield_rank": 46
+},{
+    "author": "Simmons, J. G.",
+    "rank_ns": 14576,
+    "comp_score": 4.06,
+    "total_cites": 6626,
+    "hindex": 26,
+    "hmindex": 19.83,
+    "subfield": "Applied Physics",
+    "subfield_rank": 327
+},{
+    "author": "Zhitomirsky, I.",
+    "rank_ns": 16304,
+    "comp_score": 4.03,
+    "total_cites": 6788,
+    "hindex": 44,
+    "hmindex": 29.48,
+    "subfield": "Materials",
+    "subfield_rank": 182
+},{
+    "author": "Wu, Xiaolin",
+    "rank_ns": 17544,
+    "comp_score": 4.01,
+    "total_cites": 8467,
+    "hindex": 39,
+    "hmindex": 25.97,
+    "subfield": "Artificial Intelligence & Image Processing",
+    "subfield_rank": 297
+},{
+    "author": "Ayers, Paul W.",
+    "rank_ns": 18415,
+    "comp_score": 3.99,
+    "total_cites": 7172,
+    "hindex": 42,
+    "hmindex": 26.47,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 438
+},{
+    "author": "Hitchcock, Adam P.",
+    "rank_ns": 30190,
+    "comp_score": 3.84,
+    "total_cites": 7706,
+    "hindex": 42,
+    "hmindex": 25.31,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 696
+},{
+    "author": "Woo, Ming ko",
+    "rank_ns": 40480,
+    "comp_score": 3.75,
+    "total_cites": 3753,
+    "hindex": 33,
+    "hmindex": 22.97,
+    "subfield": "Environmental Engineering",
+    "subfield_rank": 140
+},{
+    "author": "Hamielec, A.",
+    "rank_ns": 42889,
+    "comp_score": 3.73,
+    "total_cites": 7186,
+    "hindex": 45,
+    "hmindex": 29.7,
+    "subfield": "Polymers",
+    "subfield_rank": 396
+},{
+    "author": "Bandler, John W.",
+    "rank_ns": 45824,
+    "comp_score": 3.71,
+    "total_cites": 4130,
+    "hindex": 28,
+    "hmindex": 17.19,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 396
+},{
+    "author": "Yu, Jie",
+    "rank_ns": 48399,
+    "comp_score": 3.69,
+    "total_cites": 4321,
+    "hindex": 37,
+    "hmindex": 18.41,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 1074
+},{
+    "author": "Chang, Jen Shih",
+    "rank_ns": 50297,
+    "comp_score": 3.68,
+    "total_cites": 4394,
+    "hindex": 31,
+    "hmindex": 18.97,
+    "subfield": "Applied Physics",
+    "subfield_rank": 1244
+},{
+    "author": "Deen, M. Jamal",
+    "rank_ns": 52739,
+    "comp_score": 3.66,
+    "total_cites": 6237,
+    "hindex": 43,
+    "hmindex": 22.51,
+    "subfield": "Applied Physics",
+    "subfield_rank": 1304
+},{
+    "author": "Brash, John L.",
+    "rank_ns": 52797,
+    "comp_score": 3.66,
+    "total_cites": 5877,
+    "hindex": 40,
+    "hmindex": 22.85,
+    "subfield": "Biomedical Engineering",
+    "subfield_rank": 242
+},{
+    "author": "Whalley, E.",
+    "rank_ns": 54633,
+    "comp_score": 3.65,
+    "total_cites": 4702,
+    "hindex": 32,
+    "hmindex": 20.37,
+    "subfield": "Chemical Physics",
+    "subfield_rank": 1187
+},{
+    "author": "Coulibaly, Paulin",
+    "rank_ns": 58245,
+    "comp_score": 3.63,
+    "total_cites": 4374,
+    "hindex": 33,
+    "hmindex": 18.85,
+    "subfield": "Environmental Engineering",
+    "subfield_rank": 220
+},{
+    "author": "Popovic, Zoran",
+    "rank_ns": 58804,
+    "comp_score": 3.63,
+    "total_cites": 6434,
+    "hindex": 38,
+    "hmindex": 16.79,
+    "subfield": "Applied Physics",
+    "subfield_rank": 1466
+},{
+    "author": "Ghobarah, A.",
+    "rank_ns": 62125,
+    "comp_score": 3.61,
+    "total_cites": 2968,
+    "hindex": 29,
+    "hmindex": 19.46,
+    "subfield": "Civil Engineering",
+    "subfield_rank": 82
+},{
+    "author": "Hoyt, Jeffrey J.",
+    "rank_ns": 64911,
+    "comp_score": 3.59,
+    "total_cites": 3889,
+    "hindex": 34,
+    "hmindex": 17.86,
+    "subfield": "Materials",
+    "subfield_rank": 807
+},{
+    "author": "Weatherly, G. C.",
+    "rank_ns": 66579,
+    "comp_score": 3.58,
+    "total_cites": 5337,
+    "hindex": 37,
+    "hmindex": 22.56,
+    "subfield": "Materials",
+    "subfield_rank": 826
+},{
+    "author": "Wilkinson, David S.",
+    "rank_ns": 67708,
+    "comp_score": 3.58,
+    "total_cites": 4748,
+    "hindex": 36,
+    "hmindex": 20.57,
+    "subfield": "Materials",
+    "subfield_rank": 844
+},{
+    "author": "Loutfy, R. O.",
+    "rank_ns": 68898,
+    "comp_score": 3.57,
+    "total_cites": 3140,
+    "hindex": 30,
+    "hmindex": 15.8,
+    "subfield": "Applied Physics",
+    "subfield_rank": 1725
+},{
+    "author": "Ghosh, Raja",
+    "rank_ns": 78884,
+    "comp_score": 3.52,
+    "total_cites": 1971,
+    "hindex": 24,
+    "hmindex": 16.82,
+    "subfield": "Chemical Engineering",
+    "subfield_rank": 300
+},{
+    "author": "Shi, An Chang",
+    "rank_ns": 89499,
+    "comp_score": 3.47,
+    "total_cites": 5162,
+    "hindex": 39,
+    "hmindex": 19.7,
+    "subfield": "Polymers",
+    "subfield_rank": 815
+},{
+    "author": "Hranilovic, S.",
+    "rank_ns": 91466,
+    "comp_score": 3.46,
+    "total_cites": 3224,
+    "hindex": 26,
+    "hmindex": 16.9,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 819
+},{
+    "author": "Kallin, Catherine",
+    "rank_ns": 104806,
+    "comp_score": 3.41,
+    "total_cites": 3720,
+    "hindex": 29,
+    "hmindex": 13.32,
+    "subfield": "Applied Physics",
+    "subfield_rank": 2734
+},{
+    "author": "Kirkaldy, John Samuel",
+    "rank_ns": 105795,
+    "comp_score": 3.41,
+    "total_cites": 2075,
+    "hindex": 25,
+    "hmindex": 16.92,
+    "subfield": "Materials",
+    "subfield_rank": 1364
+},{
+    "author": "Hoare, Todd",
+    "rank_ns": 110875,
+    "comp_score": 3.39,
+    "total_cites": 6146,
+    "hindex": 33,
+    "hmindex": 16.39,
+    "subfield": "Polymers",
+    "subfield_rank": 1003
+},{
+    "author": "Pietruszczak, S.",
+    "rank_ns": 111688,
+    "comp_score": 3.38,
+    "total_cites": 2226,
+    "hindex": 24,
+    "hmindex": 17.33,
+    "subfield": "Geological & Geomatics Engineering",
+    "subfield_rank": 421
+},{
+    "author": "Ziada, Samir",
+    "rank_ns": 118829,
+    "comp_score": 3.36,
+    "total_cites": 1695,
+    "hindex": 24,
+    "hmindex": 16.5,
+    "subfield": "Mechanical Engineering & Transports",
+    "subfield_rank": 698
+},{
+    "author": "Puri, Ishwar K.",
+    "rank_ns": 120071,
+    "comp_score": 3.35,
+    "total_cites": 3268,
+    "hindex": 31,
+    "hmindex": 19.58,
+    "subfield": "Energy",
+    "subfield_rank": 1315
+},{
+    "author": "Woods, Donald R.",
+    "rank_ns": 128871,
+    "comp_score": 3.32,
+    "total_cites": 2528,
+    "hindex": 20,
+    "hmindex": 12.98,
+    "subfield": "Education",
+    "subfield_rank": 655
+},{
+    "author": "Purdy, Gary R.",
+    "rank_ns": 129972,
+    "comp_score": 3.32,
+    "total_cites": 3400,
+    "hindex": 29,
+    "hmindex": 17.73,
+    "subfield": "Materials",
+    "subfield_rank": 1698
+},{
+    "author": "Basinski, Z. S.",
+    "rank_ns": 136698,
+    "comp_score": 3.3,
+    "total_cites": 1634,
+    "hindex": 21,
+    "hmindex": 13.78,
+    "subfield": "Materials",
+    "subfield_rank": 1798
+},{
+    "author": "Lapierre, R. R.",
+    "rank_ns": 137734,
+    "comp_score": 3.3,
+    "total_cites": 2242,
+    "hindex": 24,
+    "hmindex": 14.55,
+    "subfield": "Applied Physics",
+    "subfield_rank": 3652
+},{
+    "author": "Zheng, Rong",
+    "rank_ns": 139460,
+    "comp_score": 3.29,
+    "total_cites": 2496,
+    "hindex": 27,
+    "hmindex": 13.71,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 1315
+},{
+    "author": "Mhaskar, Prashant",
+    "rank_ns": 145727,
+    "comp_score": 3.27,
+    "total_cites": 2320,
+    "hindex": 25,
+    "hmindex": 13.55,
+    "subfield": "Industrial Engineering & Automation",
+    "subfield_rank": 1016
+},{
+    "author": "Wu, Yiliang",
+    "rank_ns": 148837,
+    "comp_score": 3.26,
+    "total_cites": 6854,
+    "hindex": 43,
+    "hmindex": 13.66,
+    "subfield": "Applied Physics",
+    "subfield_rank": 3962
+},{
+    "author": "Smeltzer, W.",
+    "rank_ns": 152596,
+    "comp_score": 3.25,
+    "total_cites": 1902,
+    "hindex": 24,
+    "hmindex": 16.92,
+    "subfield": "Materials",
+    "subfield_rank": 2013
+},{
+    "author": "Carey, Sean K.",
+    "rank_ns": 158611,
+    "comp_score": 3.24,
+    "total_cites": 2069,
+    "hindex": 27,
+    "hmindex": 13.48,
+    "subfield": "Environmental Engineering",
+    "subfield_rank": 756
+},{
+    "author": "Crowe, C. M.",
+    "rank_ns": 161211,
+    "comp_score": 3.23,
+    "total_cites": 1424,
+    "hindex": 16,
+    "hmindex": 11.93,
+    "subfield": "Chemical Engineering",
+    "subfield_rank": 746
+},{
+    "author": "Kirubarajan, Thiagalingam",
+    "rank_ns": 163320,
+    "comp_score": 3.22,
+    "total_cites": 5503,
+    "hindex": 38,
+    "hmindex": 21.0,
+    "subfield": "Optoelectronics & Photonics",
+    "subfield_rank": 697
+},{
+    "author": "Elbestawi, M. A.",
+    "rank_ns": 165322,
+    "comp_score": 3.22,
+    "total_cites": 4962,
+    "hindex": 39,
+    "hmindex": 23.82,
+    "subfield": "Industrial Engineering & Automation",
+    "subfield_rank": 1149
+},{
+    "author": "Nikolova, Natalia K.",
+    "rank_ns": 165343,
+    "comp_score": 3.22,
+    "total_cites": 1656,
+    "hindex": 20,
+    "hmindex": 10.9,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 1573
+},{
+    "author": "Gaulin, B. D.",
+    "rank_ns": 165747,
+    "comp_score": 3.22,
+    "total_cites": 4252,
+    "hindex": 34,
+    "hmindex": 13.88,
+    "subfield": "Applied Physics",
+    "subfield_rank": 4448
+},{
+    "author": "Petric, Anthony",
+    "rank_ns": 178936,
+    "comp_score": 3.18,
+    "total_cites": 3725,
+    "hindex": 30,
+    "hmindex": 17.98,
+    "subfield": "Materials",
+    "subfield_rank": 2374
+},{
+    "author": "Nicholson, Patrick S.",
+    "rank_ns": 186924,
+    "comp_score": 3.16,
+    "total_cites": 4255,
+    "hindex": 27,
+    "hmindex": 17.32,
+    "subfield": "Materials",
+    "subfield_rank": 2497
+},{
+    "author": "Tso, Wai Keung",
+    "rank_ns": 187867,
+    "comp_score": 3.16,
+    "total_cites": 1247,
+    "hindex": 22,
+    "hmindex": 15.0,
+    "subfield": "Strategic, Defence & Security Studies",
+    "subfield_rank": 243
+},{
+    "author": "Paige, Richard F.",
+    "rank_ns": 190587,
+    "comp_score": 3.15,
+    "total_cites": 2662,
+    "hindex": 27,
+    "hmindex": 13.76,
+    "subfield": "Artificial Intelligence & Image Processing",
+    "subfield_rank": 3127
+},{
+    "author": "Cassidy, Daniel T.",
+    "rank_ns": 192724,
+    "comp_score": 3.15,
+    "total_cites": 1258,
+    "hindex": 18,
+    "hmindex": 12.59,
+    "subfield": "Optoelectronics & Photonics",
+    "subfield_rank": 841
+},{
+    "author": "Davidson, Timothy N.",
+    "rank_ns": 193853,
+    "comp_score": 3.15,
+    "total_cites": 3068,
+    "hindex": 26,
+    "hmindex": 14.3,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 1838
+},{
+    "author": "Yu, Jie",
+    "rank_ns": 211622,
+    "comp_score": 3.11,
+    "total_cites": 1259,
+    "hindex": 16,
+    "hmindex": 8.82,
+    "subfield": "Chemical Engineering",
+    "subfield_rank": 1012
+},{
+    "author": "Kumar, Shiva",
+    "rank_ns": 211645,
+    "comp_score": 3.11,
+    "total_cites": 1183,
+    "hindex": 19,
+    "hmindex": 11.25,
+    "subfield": "Optics",
+    "subfield_rank": 908
+},{
+    "author": "Wu, P. D.",
+    "rank_ns": 212324,
+    "comp_score": 3.11,
+    "total_cites": 3567,
+    "hindex": 35,
+    "hmindex": 15.85,
+    "subfield": "Materials",
+    "subfield_rank": 2848
+},{
+    "author": "Habibi, Saeid",
+    "rank_ns": 212729,
+    "comp_score": 3.11,
+    "total_cites": 1112,
+    "hindex": 17,
+    "hmindex": 10.56,
+    "subfield": "Industrial Engineering & Automation",
+    "subfield_rank": 1475
+},{
+    "author": "Niewczas, Marek",
+    "rank_ns": 219226,
+    "comp_score": 3.09,
+    "total_cites": 1532,
+    "hindex": 22,
+    "hmindex": 10.75,
+    "subfield": "Materials",
+    "subfield_rank": 2961
+},{
+    "author": "Wong, Kon Max",
+    "rank_ns": 222942,
+    "comp_score": 3.08,
+    "total_cites": 3928,
+    "hindex": 34,
+    "hmindex": 16.22,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 2171
+},{
+    "author": "Childs, Ronald F.",
+    "rank_ns": 226170,
+    "comp_score": 3.08,
+    "total_cites": 1519,
+    "hindex": 22,
+    "hmindex": 12.49,
+    "subfield": "Chemical Engineering",
+    "subfield_rank": 1090
+},{
+    "author": "Irons, Gordon A.",
+    "rank_ns": 233986,
+    "comp_score": 3.06,
+    "total_cites": 1521,
+    "hindex": 23,
+    "hmindex": 15.32,
+    "subfield": "Mining & Metallurgy",
+    "subfield_rank": 118
+},{
+    "author": "Higgins, Drew C.",
+    "rank_ns": 243780,
+    "comp_score": 3.04,
+    "total_cites": 6770,
+    "hindex": 38,
+    "hmindex": 12.43,
+    "subfield": "Energy",
+    "subfield_rank": 3073
+},{
+    "author": "Arif, Abul Fazal M.",
+    "rank_ns": 244548,
+    "comp_score": 3.04,
+    "total_cites": 1434,
+    "hindex": 19,
+    "hmindex": 12.1,
+    "subfield": "Mechanical Engineering & Transports",
+    "subfield_rank": 1568
+},{
+    "author": "Wang, Yong",
+    "rank_ns": 255239,
+    "comp_score": 3.02,
+    "total_cites": 804,
+    "hindex": 16,
+    "hmindex": 10.26,
+    "subfield": "Optoelectronics & Photonics",
+    "subfield_rank": 1179
+},{
+    "author": "Bakr, Mohamed H.",
+    "rank_ns": 271656,
+    "comp_score": 2.99,
+    "total_cites": 1715,
+    "hindex": 18,
+    "hmindex": 9.98,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 2681
+},{
+    "author": "Szymanski, T. H.",
+    "rank_ns": 287226,
+    "comp_score": 2.96,
+    "total_cites": 564,
+    "hindex": 14,
+    "hmindex": 10.97,
+    "subfield": "Networking & Telecommunications",
+    "subfield_rank": 2842
+},{
+    "author": "Tait, Michael",
+    "rank_ns": 308107,
+    "comp_score": 2.93,
+    "total_cites": 1078,
+    "hindex": 18,
+    "hmindex": 11.8,
+    "subfield": "Civil Engineering",
+    "subfield_rank": 638
+},{
+    "author": "Haugen, Harold K.",
+    "rank_ns": 353637,
+    "comp_score": 2.86,
+    "total_cites": 3480,
+    "hindex": 32,
+    "hmindex": 13.84,
+    "subfield": "Optoelectronics & Photonics",
+    "subfield_rank": 1777
+},{
+    "author": "Xu, Chang Qing",
+    "rank_ns": 354909,
+    "comp_score": 2.86,
+    "total_cites": 1687,
+    "hindex": 22,
+    "hmindex": 11.5,
+    "subfield": "Optoelectronics & Photonics",
+    "subfield_rank": 1787
+},{
+    "author": "Lu, W. K.",
+    "rank_ns": 486329,
+    "comp_score": 2.7,
+    "total_cites": 642,
+    "hindex": 13,
+    "hmindex": 8.75,
+    "subfield": "Mining & Metallurgy",
+    "subfield_rank": 330
+},{
+    "author": "Sowerby, R.",
+    "rank_ns": 486887,
+    "comp_score": 2.7,
+    "total_cites": 1027,
+    "hindex": 18,
+    "hmindex": 10.33,
+    "subfield": "Mining & Metallurgy",
+    "subfield_rank": 331
+}]

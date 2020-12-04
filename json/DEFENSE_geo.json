@@ -1,0 +1,199 @@
+[{
+    "id": "US",
+    "value": 53.9,
+    "count": 194,
+    "count_display": "194 Authors",
+    "percent_display": "53.9%"
+},{
+    "id": "NO",
+    "value": 3.9,
+    "count": 14,
+    "count_display": "14 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "CH",
+    "value": 1.7,
+    "count": 6,
+    "count_display": "6 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "IT",
+    "value": 4.7,
+    "count": 17,
+    "count_display": "17 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "GR",
+    "value": 2.5,
+    "count": 9,
+    "count_display": "9 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "IL",
+    "value": 1.4,
+    "count": 5,
+    "count_display": "5 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "DE",
+    "value": 1.7,
+    "count": 6,
+    "count_display": "6 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "SE",
+    "value": 1.1,
+    "count": 4,
+    "count_display": "4 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "GB",
+    "value": 8.3,
+    "count": 30,
+    "count_display": "30 Authors",
+    "percent_display": "8.3%"
+},{
+    "id": "CA",
+    "value": 3.9,
+    "count": 14,
+    "count_display": "14 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "SI",
+    "value": 0.8,
+    "count": 3,
+    "count_display": "3 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "HK",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "NZ",
+    "value": 1.4,
+    "count": 5,
+    "count_display": "5 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "BE",
+    "value": 0.6,
+    "count": 2,
+    "count_display": "2 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "FR",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "AU",
+    "value": 1.7,
+    "count": 6,
+    "count_display": "6 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "IN",
+    "value": 0.6,
+    "count": 2,
+    "count_display": "2 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "IE",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "CN",
+    "value": 1.7,
+    "count": 6,
+    "count_display": "6 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "AT",
+    "value": 0.6,
+    "count": 2,
+    "count_display": "2 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "FI",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "NL",
+    "value": 1.7,
+    "count": 6,
+    "count_display": "6 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "ZA",
+    "value": 0.8,
+    "count": 3,
+    "count_display": "3 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "NONE",
+    "value": 0.6,
+    "count": 2,
+    "count_display": "2 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "MY",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "JP",
+    "value": 2.2,
+    "count": 8,
+    "count_display": "8 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "TR",
+    "value": 1.1,
+    "count": 4,
+    "count_display": "4 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "TW",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "VE",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "MX",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "EG",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "ES",
+    "value": 0.6,
+    "count": 2,
+    "count_display": "2 Authors",
+    "percent_display": "<5%"
+},{
+    "id": "SA",
+    "value": 0.3,
+    "count": 1,
+    "count_display": "1 Authors",
+    "percent_display": "<5%"
+}]
