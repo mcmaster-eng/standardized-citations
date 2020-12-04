@@ -60,7 +60,7 @@ dsets = {"ai_":ai_,"app_phys_":app_phys_,"biomed_":biomed_,"chemicale_":chemical
 
 
 var table2 = $('#table2').DataTable( {
-  data: ai_,
+  data: biomed_,
   //"bFilter": false,
   "bInfo": false,
   "bLengthChange": false,
@@ -79,25 +79,6 @@ var table2 = $('#table2').DataTable( {
       { title: 'Institution', data: 'institution', className: 'dt-left', width:'12%'},
       { title: 'Overall Rank', data: 'rank_ns' },
       { title: 'Composite Score', data: 'comp_score' },
-      /*{ title: '', data: 'comp_score', orderable: false, render: function(data, type, row, meta){
-            return $("<div></div>", {
-                "class": "bar-chart-bar"
-            }).append(function(){
-                var bars = [];
-                bars.push($("<div></div>",{
-                    "class": "bar bar1"
-                }).css({
-                    "width": data + "%"
-                }))
-                return bars;
-            }).prop("outerHTML")
-        }
-      },
-      { title: 'QI', data: 'QI_PUB', render: function(data, type, row, meta) {
-        return type === 'display' ?
-        '<progress value="' + data + '" max="100" ><span></span></progress>': data;
-        }
-      },*/
       { title: 'H Index', data: 'hindex' },
       { title: 'HM Index', data: 'hmindex' },
       { title: 'Citations', data: 'total_cites' },
@@ -122,7 +103,7 @@ am4core.useTheme(am4themes_dark);
 // Create chart instance
 var chart = am4core.create("chartdiv", am4charts.XYChart);
 
-chart.data = ai_;
+chart.data = biomed_;
 chart.zoomOutButton.disabled = true;
 chart.scrollbarX = new am4core.Scrollbar();
 chart.cursor = new am4charts.XYCursor();
@@ -457,7 +438,7 @@ var polymer_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubuserco
 
 geo_dsets = {"ai_":ai_geo,"app_phys_":app_phys_geo,"biomed_":biomed_geo,"chemicale_":chemicale_geo,"chemicalp_":chemicalp_geo,"civil_":civil_geo,"defense_":defense_geo,"ece_":ece_geo,"educ_":educ_geo,"energy_":energy_geo,"enviro_":enviro_geo,"geomatics_":geomatics_geo,"indust_":indust_geo,"material_":material_geo,"mechanical_":mechanical_geo,"metal_":metal_geo,"network_":network_geo,"optics_":optics_geo,"opticselec_":opticselec_geo,"polymer_":polymer_geo};
 
-countriesSeries.data = ai_geo;
+countriesSeries.data = biomed_geo;
 
 var countryTemplate = countries.template;
 countryTemplate.applyOnClones = true;
