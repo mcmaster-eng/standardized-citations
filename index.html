@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Top 2% Authors</title>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/material.js"></script>
+  <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+  <script src="https://www.amcharts.com/lib/4/geodata/continentsLow.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.appendgrid@2/dist/AppendGrid.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+  <script src="js/functions.js"></script>
+
+  <div id="title">
+    <!--<img src="https://dl.dropbox.com/s/7nue8edfvhhqaba/arwu_transp_logo.png?dl=0" height="103px" width="306px"><br>-->
+    <span style="font-size:28px;color:#7a003c;font-family:'Georgia',serif;letter-spacing: 2px;">Top 2% of Research Authors</span><br>
+    <span style="font-size:14px;color:#7a003c;font-weight:normal;">Analysis of Standardized Citation Database</span>
+    <hr></hr>
+  </div>
+
+  <div id="macauth" style="display:inline-block;margin:20px;margin-bottom:0px;position:relative;width:100%;">
+    <img src="https://dl.dropbox.com/s/gvb9asfq5vuambt/1200px-Uni_mcmaster_logo.png?dl=0" width="36px" height="42px"></img>
+    <span style="position:absolute;letter-spacing:1px;font-weight:bold;font-size:20px;left:45px;top:10px;z-index:1;">McMASTER AFFILIATED AUTHORS</span>
+  </div>
+  <div class="flexcontainer-top" style="padding-top:0px;padding-bottom:40px;">
+    <div class="flexitem-bottom" style="width:80%;flex:1;background-color:#ffffff;border-radius:6px;">
+      <table id="table1" class="stripe" style="width:100%;max-height:200px;"></table><br>
+      <span style="font-size:11px;">Authors affiliated with McMaster Engineering are highlighted in bold</span>
+    </div>
+  </div>
+
+  <div>
+    <span style="letter-spacing:1px;font-weight:bold;font-size:20px;margin-left:18px;z-index:1;">EXPLORE A FIELD OF RESEARCH</span>
+  </div>
+
+  <div class="subjFilter">
+    <div class="dropdown">
+      <button id="fixedBTN" class="dropbtn">artificial intelligence & image processing</button>
+      <div class="dropdown-content">
+        <a href="javascript:void(0)"  class="subDrop activeClear" id="Artificial Intelligence & Image Processing" title="ai_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Artificial Intelligence & Image Processing</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Applied Physics" title="app_phys_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Applied Physics</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Biomedical Engineering" title="biomed_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Biomedical Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Chemical Engineering" title="chemicale_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Chemical Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Chemical Physics" title="chemicalp_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Chemical Physics</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Civil Engineering" title="civil_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Civil Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Electrical Engineering" title="ece_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Electrical Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Education" title="educ_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Education</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Energy" title="energy_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Energy</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Environmental Engineering" title="enviro_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Environmental Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Geomatics Engineering" title="geomatics_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Geomatics Engineering</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Industrial Engineering & Automation" title="indust_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Industrial Engineering & Automation</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Materials" title="material_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Materials</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Mechanical Engineering & Transports" title="mechanical_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Mechanical Engineering & Transports</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Mining & Metallurgy" title="metal_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Mining & Metallurgy</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Networking & Telecommunications" title="network_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Networking & Telecommunications</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Optics" title="optics_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Optics</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Optoelectronics & Photonics" title="opticselec_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Optoelectronics & Photonics</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Polymers" title="polymer_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Polymers</a>
+        <a href="javascript:void(0)"  class="subDrop" id="Strategic, Defense & Security Studies" title="defense_" onclick="highlightSub(this);changeText(this);selectDataset(this.title);changeTable();">Strategic, Defense & Security Studies</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="flexcontainer-top" style="padding-top:20px;">
+    <div class="flexitem" style="background-color:#222222;border-radius:6px;padding-bottom:30px;">
+      <div id="chartdiv"> </div><br>
+      <div id="legend_cust"></div>
+    </div>
+  </div>
+
+  <div class="flexcontainer-top" style="padding-top:10px;">
+    <div class="flexitem-bottom" style="width:80%;flex:1;background-color:#ffffff;border-radius:6px;">
+      <table id="table2" class="stripe" style="width:100%;max-height:400px;"></table>
+    </div>
+  </div>
+
+  <div class="flexcontainer-top" style="padding-top:10px;">
+    <div class="flexitem-item" style="background-color:#222222;border-radius:6px;padding-bottom:30px;">
+      <div id="chartdiv_map"></div>
+    </div>
+  </div>
+
+  <!-- Collapsible with data notes -->
+  <div class="flexcontainer" id="flex-collapse" style="height:auto;">
+    <button class="collapsible" onclick="collapsible(this)" id="0" style="border:none;margin-bottom:30px;">Data Notes&#160;</button>
+    <div class="content" style="height:auto;">
+      <ul style="font-size:11px;margin-left:-15px;padding-bottom:2px;">
+        <li>Data is provided by Jeroen Baas, Kevin Boyack, John Ioannidis through Mendeley Data (https://data.mendeley.com/datasets/btchxktzyw/2)</li>
+        <li>Rankings and composite scores are based on data that exclude self-citations</li>
+        <li>Authors associated with sub-fields not related to engineering have been removed</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="js/visuals.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+body {
+  background-color: #e7e7e7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#chartdiv {
+  height: 60vh;
+  width: 95vw;
+  margin-right: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#chartdiv_map {
+  height: 60vh;
+  width: 95vw;
+  margin-right: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+/* Custom Legend Settings */
+#legend_cust {
+  position: relative;
+  left: 20px;
+  width: 360px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+  background-image: url(https://dl.dropbox.com/s/bopl5furoh1vwlr/top2_Legend1.png?dl=0);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* ---------------------- */
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.flexcontainer-top {
+  position:relative;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.flexitem-bottom {
+  margin: 0 auto;
+  margin: 20px;
+  border-radius:4px;
+  padding: 20px;
+  height: auto;
+  position: relative;
+  flex-grow: 1;
+  flex: auto;
+}
+.flexitem {
+  margin: 0 auto;
+  position: relative;
+}
+.activeClear {
+  border: 0px solid #ffffff;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+}
+hr {
+  width: 50%;
+}
+/* ~~~~~~~  COLLAPSIBLE CSS SETTINGS ~~~~~~~~ */
+.collapsible, #flex-collapse{
+    background-color: #ececec;
+    color: #6f1c46;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #6f1c46;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#flex-collapse ul {
+   font-weight: normal;
+}
+
+.collapsible:after {
+    color: #6f1c46;
+    content: '\002B';
+    float: right;
+}
+
+.active2:after {
+    color: #6f1c46;
+    content: "\2212";
+}
+
+.content {
+    width: auto;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    box-sizing: border-box;
+    /*border: 1px solid #6f1c46;
+    background-color: #f0f0f0;*/
+    border-radius: 6px;
+    margin-top:-20px;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;*/
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~  SUBJECT FILTER DROPDOWN ~~~~~~~~ */
+
+.subjFilter {
+  z-index: 5;
+  background-color: rgba(255,255,255,0.2);
+  webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.12)!important;
+  -moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.12)!important;
+  box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.12)!important;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  margin: 15px;
+}
+
+.dropbtn {
+  position:relative;
+  height: 70px;
+  background-color: rgba(255,255,255,0);
+  color: rgba(122,0,60,1);
+  font-size: 32px;
+  font-family: "Georgia", serif;
+  border: none;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.dropdown {
+  position: relative;
+  width:100%;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: -2px;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  max-height: 300px;
+  overflow:scroll;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3000;
+  font-size: 12px;
+  border-bottom-right-radius: 6px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*.dropdown:hover .dropbtn {
+  background-color: #007096;
+}*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~  FIXED SUBJECT FILTER DROPDOWN ~~~~~~~~ */
+table { text-align: center;}
+th { font-size: 13px; }
+td { font-size: 11px; }
+
+.custom-class {
+  color: blue;
+  padding: 8px 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~  Settings needed for data bars within table ~~~~~~~~
+.bar-chart-bar {
+  background-color: #e8e8e8;
+  display: block;
+  position:relative;
+  width: 100%;
+  height: 20px;
+}
+
+.bar {
+  float: left;
+  height: 100%;
+}
+
+.bar1 {
+  background-color: green;
+}
+
+progress {
+  text-align: center;
+}
+progress:after {
+  content: attr(value)'%';
+  font-weight: bold;
+}
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+ .boldRow {
+   font-weight:bold !important;
+   color: #7a003c !important;
+ }
