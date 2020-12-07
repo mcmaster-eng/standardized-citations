@@ -21,233 +21,233 @@
     "value": 4.3,
     "count": 52,
     "count_display": "52 Authors",
-    "percent_display": "<5%"
+    "percent_display": "4.3%"
 },{
     "id": "TW",
     "value": 1.0,
     "count": 12,
     "count_display": "12 Authors",
-    "percent_display": "<5%"
+    "percent_display": "1.0%"
 },{
     "id": "GE",
     "value": 0.2,
     "count": 2,
     "count_display": "2 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "NL",
     "value": 2.3,
     "count": 28,
     "count_display": "28 Authors",
-    "percent_display": "<5%"
+    "percent_display": "2.3%"
 },{
     "id": "IE",
     "value": 0.5,
     "count": 6,
     "count_display": "6 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "FI",
     "value": 0.9,
     "count": 11,
     "count_display": "11 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "CY",
     "value": 0.3,
     "count": 4,
     "count_display": "4 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "CN",
     "value": 0.3,
     "count": 4,
     "count_display": "4 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "HK",
     "value": 1.5,
     "count": 18,
     "count_display": "18 Authors",
-    "percent_display": "<5%"
+    "percent_display": "1.5%"
 },{
     "id": "TH",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "IL",
     "value": 2.5,
     "count": 30,
     "count_display": "30 Authors",
-    "percent_display": "<5%"
+    "percent_display": "2.5%"
 },{
     "id": "DE",
     "value": 2.1,
     "count": 26,
     "count_display": "26 Authors",
-    "percent_display": "<5%"
+    "percent_display": "2.1%"
 },{
     "id": "SE",
     "value": 0.6,
     "count": 7,
     "count_display": "7 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "NO",
     "value": 0.5,
     "count": 6,
     "count_display": "6 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "NZ",
     "value": 1.0,
     "count": 12,
     "count_display": "12 Authors",
-    "percent_display": "<5%"
+    "percent_display": "1.0%"
 },{
     "id": "KR",
     "value": 0.2,
     "count": 3,
     "count_display": "3 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "NONE",
     "value": 0.7,
     "count": 9,
     "count_display": "9 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "DK",
     "value": 0.2,
     "count": 3,
     "count_display": "3 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "IT",
     "value": 0.2,
     "count": 3,
     "count_display": "3 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "CH",
     "value": 0.3,
     "count": 4,
     "count_display": "4 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "BE",
     "value": 0.7,
     "count": 9,
     "count_display": "9 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "AT",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "ES",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "GR",
     "value": 0.4,
     "count": 5,
     "count_display": "5 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "ZA",
     "value": 0.3,
     "count": 4,
     "count_display": "4 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "CO",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "MX",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "VE",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "AE",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "JP",
     "value": 0.2,
     "count": 2,
     "count_display": "2 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "SG",
     "value": 0.4,
     "count": 5,
     "count_display": "5 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "BR",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "PT",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "IS",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "SA",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "GH",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "FR",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "IN",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 },{
     "id": "MY",
     "value": 0.1,
     "count": 1,
     "count_display": "1 Authors",
-    "percent_display": "<5%"
+    "percent_display": "<1%"
 }]
