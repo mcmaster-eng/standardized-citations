@@ -59,7 +59,7 @@
     "subfield": "Chemical Engineering",
     "subfield_rank": 42
 },{
-    "author": "Emadi, Ali",
+    "author": "Emadi, Ali *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 12363,
     "comp_score": 4.1,
@@ -89,7 +89,7 @@
     "subfield": "Applied Physics",
     "subfield_rank": 327
 },{
-    "author": "Zhitomirsky, I.",
+    "author": "Zhitomirsky, I. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 16304,
     "comp_score": 4.03,
@@ -99,7 +99,7 @@
     "subfield": "Materials",
     "subfield_rank": 182
 },{
-    "author": "Wu, Xiaolin",
+    "author": "Wu, Xiaolin *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 17544,
     "comp_score": 4.01,
@@ -179,7 +179,7 @@
     "subfield": "Applied Physics",
     "subfield_rank": 1244
 },{
-    "author": "Deen, M. Jamal",
+    "author": "Deen, M. Jamal *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 52739,
     "comp_score": 3.66,
@@ -209,7 +209,7 @@
     "subfield": "Chemical Physics",
     "subfield_rank": 1187
 },{
-    "author": "Coulibaly, Paulin",
+    "author": "Coulibaly, Paulin *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 58245,
     "comp_score": 3.63,
@@ -229,7 +229,7 @@
     "subfield": "Applied Physics",
     "subfield_rank": 1466
 },{
-    "author": "Botton, Gianluigi A.",
+    "author": "Botton, Gianluigi A. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 60779,
     "comp_score": 3.61,
@@ -269,7 +269,7 @@
     "subfield": "Materials",
     "subfield_rank": 826
 },{
-    "author": "Wilkinson, David S.",
+    "author": "Wilkinson, David S. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 67708,
     "comp_score": 3.58,
@@ -289,7 +289,7 @@
     "subfield": "Applied Physics",
     "subfield_rank": 1725
 },{
-    "author": "Ghosh, Raja",
+    "author": "Ghosh, Raja *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 78884,
     "comp_score": 3.52,
@@ -309,7 +309,7 @@
     "subfield": "Polymers",
     "subfield_rank": 815
 },{
-    "author": "Hranilovic, S.",
+    "author": "Hranilovic, S. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 91466,
     "comp_score": 3.46,
@@ -339,7 +339,7 @@
     "subfield": "Materials",
     "subfield_rank": 1364
 },{
-    "author": "Hoare, Todd",
+    "author": "Hoare, Todd *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 110875,
     "comp_score": 3.39,
@@ -369,7 +369,7 @@
     "subfield": "Mechanical Engineering & Transports",
     "subfield_rank": 698
 },{
-    "author": "Puri, Ishwar K.",
+    "author": "Puri, Ishwar K. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 120071,
     "comp_score": 3.35,
@@ -409,7 +409,7 @@
     "subfield": "Materials",
     "subfield_rank": 1798
 },{
-    "author": "Lapierre, R. R.",
+    "author": "Lapierre, R. R. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 137734,
     "comp_score": 3.3,
@@ -419,7 +419,7 @@
     "subfield": "Applied Physics",
     "subfield_rank": 3652
 },{
-    "author": "Zheng, Rong",
+    "author": "Zheng, Rong *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 139460,
     "comp_score": 3.29,
@@ -429,7 +429,7 @@
     "subfield": "Networking & Telecommunications",
     "subfield_rank": 1315
 },{
-    "author": "Mhaskar, Prashant",
+    "author": "Mhaskar, Prashant *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 145727,
     "comp_score": 3.27,
@@ -479,7 +479,7 @@
     "subfield": "Chemical Engineering",
     "subfield_rank": 746
 },{
-    "author": "Kirubarajan, Thiagalingam",
+    "author": "Kirubarajan, Thiagalingam *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 163320,
     "comp_score": 3.22,
@@ -489,7 +489,7 @@
     "subfield": "Optoelectronics & Photonics",
     "subfield_rank": 697
 },{
-    "author": "Elbestawi, M. A.",
+    "author": "Elbestawi, M. A. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 165322,
     "comp_score": 3.22,
@@ -499,7 +499,7 @@
     "subfield": "Industrial Engineering & Automation",
     "subfield_rank": 1149
 },{
-    "author": "Nikolova, Natalia K.",
+    "author": "Nikolova, Natalia K. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 165343,
     "comp_score": 3.22,
@@ -549,7 +549,7 @@
     "subfield": "Strategic, Defence & Security Studies",
     "subfield_rank": 243
 },{
-    "author": "Paige, Richard F.",
+    "author": "Paige, Richard F. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 190587,
     "comp_score": 3.15,
@@ -569,7 +569,7 @@
     "subfield": "Optoelectronics & Photonics",
     "subfield_rank": 841
 },{
-    "author": "Davidson, Timothy N.",
+    "author": "Davidson, Timothy N. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 193853,
     "comp_score": 3.15,
@@ -589,7 +589,7 @@
     "subfield": "Chemical Engineering",
     "subfield_rank": 1012
 },{
-    "author": "Kumar, Shiva",
+    "author": "Kumar, Shiva  *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 211645,
     "comp_score": 3.11,
@@ -599,7 +599,7 @@
     "subfield": "Optics",
     "subfield_rank": 908
 },{
-    "author": "Wu, P. D.",
+    "author": "Wu, P. D. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 212324,
     "comp_score": 3.11,
@@ -609,7 +609,7 @@
     "subfield": "Materials",
     "subfield_rank": 2848
 },{
-    "author": "Habibi, Saeid",
+    "author": "Habibi, Saeid *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 212729,
     "comp_score": 3.11,
@@ -619,7 +619,7 @@
     "subfield": "Industrial Engineering & Automation",
     "subfield_rank": 1475
 },{
-    "author": "Niewczas, Marek",
+    "author": "Niewczas, Marek *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 219226,
     "comp_score": 3.09,
@@ -659,7 +659,7 @@
     "subfield": "Mining & Metallurgy",
     "subfield_rank": 118
 },{
-    "author": "Higgins, Drew C.",
+    "author": "Higgins, Drew C. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 243780,
     "comp_score": 3.04,
@@ -689,7 +689,7 @@
     "subfield": "Optoelectronics & Photonics",
     "subfield_rank": 1179
 },{
-    "author": "Bakr, Mohamed H.",
+    "author": "Bakr, Mohamed H. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 271656,
     "comp_score": 2.99,
@@ -699,7 +699,7 @@
     "subfield": "Networking & Telecommunications",
     "subfield_rank": 2681
 },{
-    "author": "Szymanski, T. H.",
+    "author": "Szymanski, T. H. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 287226,
     "comp_score": 2.96,
@@ -709,7 +709,7 @@
     "subfield": "Networking & Telecommunications",
     "subfield_rank": 2842
 },{
-    "author": "Tait, Michael",
+    "author": "Tait, Michael *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 308107,
     "comp_score": 2.93,
@@ -719,7 +719,7 @@
     "subfield": "Civil Engineering",
     "subfield_rank": 638
 },{
-    "author": "Haugen, Harold K.",
+    "author": "Haugen, Harold K. *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 353637,
     "comp_score": 2.86,
@@ -729,7 +729,7 @@
     "subfield": "Optoelectronics & Photonics",
     "subfield_rank": 1777
 },{
-    "author": "Xu, Chang Qing",
+    "author": "Xu, Chang Qing *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 354909,
     "comp_score": 2.86,
@@ -739,7 +739,7 @@
     "subfield": "Optoelectronics & Photonics",
     "subfield_rank": 1787
 },{
-    "author": "Li, Xun",
+    "author": "Li, Xun *",
     "faculty": "McMaster University, Faculty of Engineering",
     "rank_ns": 391028,
     "comp_score": 2.81,
