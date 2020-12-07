@@ -86,7 +86,7 @@ var table2 = $('#table2').DataTable( {
       { title: 'Citations : Distinct Papers', data: 'ratio_cp' },
   ],
     "createdRow": function(row, data, index){
-      if(data['faculty'] == 'McMaster University, Faculty of Engineering'){
+      if(data['institution'] == 'McMaster University, Faculty of Engineering'){
         $(row).addClass('boldRow');
       }
   },
