@@ -84,7 +84,12 @@ var table2 = $('#table2').DataTable( {
       { title: 'Citations', data: 'total_cites' },
       { title: 'Distinct Citing Papers', data: 'distinct_papers' },
       { title: 'Citations : Distinct Papers', data: 'ratio_cp' },
-  ]
+  ],
+    "createdRow": function(row, data, index){
+      if(data['faculty'] == 'McMaster University, Faculty of Engineering'){
+        $(row).addClass('boldRow');
+      }
+  },
 });
 
 function changeTable(){
