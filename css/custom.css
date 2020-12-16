@@ -63,14 +63,15 @@ body {
   border: 0px solid #ffffff;
 }
 #title {
-  width: 100%;
   text-align: center;
   font-size: 28px;
   font-weight: bold;
   padding: 20px;
+  margin-left:10px;
+  margin-right:10px;
 }
 hr {
-  width: 50%;
+  width: 80%;
 }
 /* ~~~~~~~  COLLAPSIBLE CSS SETTINGS ~~~~~~~~ */
 .collapsible, #flex-collapse{
