@@ -70,6 +70,14 @@ body {
   margin-left:10px;
   margin-right:10px;
 }
+a.sources:link {
+  text-decoration: none;
+  color: #7a003c;
+  font-weight: bolder;
+}
+a.sources {
+  color: #7a003c;
+}
 hr {
   width: 80%;
 }
