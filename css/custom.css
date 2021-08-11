@@ -79,6 +79,7 @@ a.sources {
 }
 hr {
   width: 80%;
+  margin-left: 0;
 }
 /* ~~~~~~~  COLLAPSIBLE CSS SETTINGS ~~~~~~~~ */
 .collapsible, #flex-collapse{
