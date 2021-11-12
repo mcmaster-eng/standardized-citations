@@ -40,22 +40,22 @@ var biomed_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubuserconten
 var chemicale_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CHEMICALE_.json", async: false}).responseText);
 var chemicalp_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CHEMICALP_.json", async: false}).responseText);
 var civil_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CIVIL_.json", async: false}).responseText);
-var defense_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/DEFENSE_.json", async: false}).responseText);
 var ece_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ECE_.json", async: false}).responseText);
 var educ_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/EDUC_.json", async: false}).responseText);
 var energy_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ENERGY_.json", async: false}).responseText);
 var enviro_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ENVIRO_.json", async: false}).responseText);
 var geomatics_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/GEOMATIC_.json", async: false}).responseText);
 var indust_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/INDUST_.json", async: false}).responseText);
+var logist_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/LOGIST_.json", async: false}).responseText);
 var material_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/MATERIALS_.json", async: false}).responseText);
 var mechanical_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/MECHANICAL_.json", async: false}).responseText);
 var metal_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/METAL_.json", async: false}).responseText);
 var network_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/NETWORK_.json", async: false}).responseText);
-var optics_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/OPTICS_.json", async: false}).responseText);
 var opticselec_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/OPTOELEC_.json", async: false}).responseText);
 var polymer_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/POLYMERS_.json", async: false}).responseText);
+var softwr_ = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/SOFTWR_.json", async: false}).responseText);
 
-dsets = {"ai_":ai_,"app_phys_":app_phys_,"biomed_":biomed_,"chemicale_":chemicale_,"chemicalp_":chemicalp_,"civil_":civil_,"defense_":defense_,"ece_":ece_,"educ_":educ_,"energy_":energy_,"enviro_":enviro_,"geomatics_":geomatics_,"indust_":indust_,"material_":material_,"mechanical_":mechanical_,"metal_":metal_,"network_":network_,"optics_":optics_,"opticselec_":opticselec_,"polymer_":polymer_};
+dsets = {"ai_":ai_,"app_phys_":app_phys_,"biomed_":biomed_,"chemicale_":chemicale_,"chemicalp_":chemicalp_,"civil_":civil_,"ece_":ece_,"educ_":educ_,"energy_":energy_,"enviro_":enviro_,"geomatics_":geomatics_,"indust_":indust_,"logist_":logist_,"material_":material_,"mechanical_":mechanical_,"metal_":metal_,"network_":network_,"opticselec_":opticselec_,"polymer_":polymer_,"softwr_":softwr_};
 
 
 
@@ -67,7 +67,7 @@ var table2 = $('#table2').DataTable( {
   "bPaginate": false,
   "bAutoWidth": true,
   "sScrollX": "100%",
-  "sScrollY": "400px",
+  "sScrollY": "250px",
   "order": [[ 3, "asc" ]],
   "language": {
     searchPlaceholder: "Search keywords",
@@ -236,19 +236,6 @@ viewButtons.marginTop = -75;
 viewButtons.marginLeft = 5;
 viewButtons.layout = "horizontal";
 
-var vbutton1 = viewButtons.createChild(am4core.Button);
-vbutton1.label.text = "Top 5,000";
-vbutton1.padding(5, 5, 5, 5);
-vbutton1.width = 100;
-vbutton1.align = "right";
-vbutton1.marginTop = 15;
-vbutton1.marginRight = 5;
-vbutton1.fontSize = 11;
-vbutton1.events.on("hit", function() {
-  valueAxisX.start = 0;
-  valueAxisX.end = 0.01;
-  valueAxisX.keepSelection = true;
-});
 var vbutton2 = viewButtons.createChild(am4core.Button);
 vbutton2.label.text = "Top 10,000";
 vbutton2.padding(5, 5, 5, 5);
@@ -275,19 +262,7 @@ vbutton3.events.on("hit", function() {
   valueAxisX.end = 0.1;
   valueAxisX.keepSelection = true;
 });
-var vbutton4 = viewButtons.createChild(am4core.Button);
-vbutton4.label.text = "Top 100,000";
-vbutton4.padding(5, 5, 5, 5);
-vbutton4.width = 100;
-vbutton4.align = "right";
-vbutton4.marginTop = 15;
-vbutton4.marginRight = 5;
-vbutton4.fontSize = 11;
-vbutton4.events.on("hit", function() {
-  valueAxisX.start = 0;
-  valueAxisX.end = 0.2;
-  valueAxisX.keepSelection = true;
-});
+
 var vbutton5 = viewButtons.createChild(am4core.Button);
 vbutton5.label.text = "MAX";
 vbutton5.padding(5, 5, 5, 5);
@@ -426,22 +401,22 @@ var biomed_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercon
 var chemicale_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CHEMICALE_geo.json", async: false}).responseText);
 var chemicalp_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CHEMICALP_geo.json", async: false}).responseText);
 var civil_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/CIVIL_geo.json", async: false}).responseText);
-var defense_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/DEFENSE_geo.json", async: false}).responseText);
 var ece_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ECE_geo.json", async: false}).responseText);
 var educ_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/EDUC_geo.json", async: false}).responseText);
 var energy_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ENERGY_geo.json", async: false}).responseText);
 var enviro_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/ENVIRO_geo.json", async: false}).responseText);
 var geomatics_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/GEOMATIC_geo.json", async: false}).responseText);
 var indust_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/INDUST_geo.json", async: false}).responseText);
+var logist_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/LOGIST_geo.json", async: false}).responseText);
 var material_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/MATERIALS_geo.json", async: false}).responseText);
 var mechanical_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/MECHANICAL_geo.json", async: false}).responseText);
 var metal_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/METAL_geo.json", async: false}).responseText);
 var network_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/NETWORK_geo.json", async: false}).responseText);
-var optics_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/OPTICS_geo.json", async: false}).responseText);
 var opticselec_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/OPTOELEC_geo.json", async: false}).responseText);
 var polymer_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/POLYMERS_geo.json", async: false}).responseText);
+var softwr_geo = JSON.parse($.ajax({type: "GET", url: "https://raw.githubusercontent.com/mcmaster-eng/standardized-citations/main/json/SOFTWR_geo.json", async: false}).responseText);
 
-geo_dsets = {"ai_":ai_geo,"app_phys_":app_phys_geo,"biomed_":biomed_geo,"chemicale_":chemicale_geo,"chemicalp_":chemicalp_geo,"civil_":civil_geo,"defense_":defense_geo,"ece_":ece_geo,"educ_":educ_geo,"energy_":energy_geo,"enviro_":enviro_geo,"geomatics_":geomatics_geo,"indust_":indust_geo,"material_":material_geo,"mechanical_":mechanical_geo,"metal_":metal_geo,"network_":network_geo,"optics_":optics_geo,"opticselec_":opticselec_geo,"polymer_":polymer_geo};
+geo_dsets = {"ai_":ai_geo,"app_phys_":app_phys_geo,"biomed_":biomed_geo,"chemicale_":chemicale_geo,"chemicalp_":chemicalp_geo,"civil_":civil_geo,"ece_":ece_geo,"educ_":educ_geo,"energy_":energy_geo,"enviro_":enviro_geo,"geomatics_":geomatics_geo,"indust_":indust_geo,"logist_":logist_geo,"material_":material_geo,"mechanical_":mechanical_geo,"metal_":metal_geo,"network_":network_geo,"opticselec_":opticselec_geo,"polymer_":polymer_geo,"softwr_":softwr_geo};
 
 countriesSeries.data = biomed_geo;
 
