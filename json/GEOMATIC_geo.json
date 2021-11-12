@@ -233,6 +233,12 @@
     "count_display": "1 Author(s)",
     "percent_display": "<1%"
 },{
+    "id": "-",
+    "value": 0.1,
+    "count": 1,
+    "count_display": "1 Author(s)",
+    "percent_display": "<1%"
+},{
     "id": "CY",
     "value": 0.2,
     "count": 2,

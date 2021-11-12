@@ -305,6 +305,12 @@
     "count_display": "1 Author(s)",
     "percent_display": "<1%"
 },{
+    "id": "-",
+    "value": 0.1,
+    "count": 1,
+    "count_display": "1 Author(s)",
+    "percent_display": "<1%"
+},{
     "id": "DZ",
     "value": 0.3,
     "count": 3,

@@ -1,9 +1,9 @@
 [{
     "id": "DE",
-    "value": 5.7,
-    "count": 26,
-    "count_display": "26 Author(s)",
-    "percent_display": "5.7%"
+    "value": 5.9,
+    "count": 27,
+    "count_display": "27 Author(s)",
+    "percent_display": "5.9%"
 },{
     "id": "US",
     "value": 53.7,
@@ -58,6 +58,12 @@
     "count": 15,
     "count_display": "15 Author(s)",
     "percent_display": "3.3%"
+},{
+    "id": "-",
+    "value": 1.5,
+    "count": 7,
+    "count_display": "7 Author(s)",
+    "percent_display": "1.5%"
 },{
     "id": "FR",
     "value": 2.4,

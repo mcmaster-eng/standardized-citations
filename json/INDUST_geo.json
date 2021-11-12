@@ -204,9 +204,9 @@
     "percent_display": "<1%"
 },{
     "id": "HU",
-    "value": 0.1,
-    "count": 3,
-    "count_display": "3 Author(s)",
+    "value": 0.2,
+    "count": 4,
+    "count_display": "4 Author(s)",
     "percent_display": "<1%"
 },{
     "id": "ES",
@@ -231,6 +231,12 @@
     "value": 0.2,
     "count": 5,
     "count_display": "5 Author(s)",
+    "percent_display": "<1%"
+},{
+    "id": "-",
+    "value": 0.1,
+    "count": 2,
+    "count_display": "2 Author(s)",
     "percent_display": "<1%"
 },{
     "id": "SI",

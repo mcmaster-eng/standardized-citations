@@ -72,10 +72,10 @@
     "percent_display": "1.9%"
 },{
     "id": "FR",
-    "value": 3.5,
-    "count": 80,
-    "count_display": "80 Author(s)",
-    "percent_display": "3.5%"
+    "value": 3.6,
+    "count": 81,
+    "count_display": "81 Author(s)",
+    "percent_display": "3.6%"
 },{
     "id": "CZ",
     "value": 0.4,
@@ -118,6 +118,12 @@
     "count": 47,
     "count_display": "47 Author(s)",
     "percent_display": "2.1%"
+},{
+    "id": "-",
+    "value": 0.2,
+    "count": 4,
+    "count_display": "4 Author(s)",
+    "percent_display": "<1%"
 },{
     "id": "KR",
     "value": 0.5,
