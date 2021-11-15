@@ -2,9 +2,28 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard - Standardized Citation Database</title>
   <link rel="stylesheet" href="css/custom.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
+<header>
+  <div id="title" style="">
+    <!--<img src="https://dl.dropbox.com/s/7nue8edfvhhqaba/arwu_transp_logo.png?dl=0" height="103px" width="306px"><br>-->
+    <span id="title_span" style="">McMASTER RESEARCHERS AMONG THE WORLD'S BEST</span><br>
+    <span id="titlesub_span" style="">Bibliometric database by Stanford University & Elsevier continues to list McMaster faculty members among the best in their fields</span><br><br>
+    <hr></hr><br>
+    <span id="titleinfo_span" style="">As a result of the collaborative efforts between Stanford University and Elsevier,
+      a <a href="https://data.mendeley.com/datasets/btchxktzyw/2" class="sources" target="_blank">database of over 100,000 top scientists</a>
+      across more than 175 sub-fields has been developed and made available to bring clarity and transparency to citation metrics. The database provides standardized citation metrics such as
+       h-index, hm-index, citations to papers ratio, and even provides them in two forms, one including self-citations and one excluding self-citations.
+       From these standardized metrics, a composite score is derived and used to rank each scientist overall and within their top sub-field.
+       </span><br>
+  </div>
+</header>
 
 <body>
   <script src="https://www.amcharts.com/lib/4/core.js"></script>
@@ -21,27 +40,37 @@
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
   <script src="js/functions.js"></script>
 
-  <div id="title" style="text-align:left;">
-    <!--<img src="https://dl.dropbox.com/s/7nue8edfvhhqaba/arwu_transp_logo.png?dl=0" height="103px" width="306px"><br>-->
-    <span style="font-size:26px;color:#7a003c;letter-spacing:2px;text-transform: uppercase;">Top 2% of Research Scientists</span><br><br>
-    <span style="font-size:14px;font-weight:lighter;">The following interactive analysis is based on a public <a href="https://data.mendeley.com/datasets/btchxktzyw/2" class="sources" target="_blank">database</a> of scientists <a href="https://data.mendeley.com/datasets/btchxktzyw/2" class="sources" target="_blank">(see Table S-10)</a> who are in the top 2% of scientists of their main sub-field discipline.</span><br>
-    <hr></hr>
-  </div>
-
-  <div id="macauth" style="display:inline-block;margin:20px;margin-bottom:0px;position:relative;width:100%;">
-    <img src="https://dl.dropbox.com/s/gvb9asfq5vuambt/1200px-Uni_mcmaster_logo.png?dl=0" width="36px" height="42px"></img>
-    <span style="position:absolute;letter-spacing:1px;font-weight:bold;font-size:20px;left:45px;top:10px;z-index:1;">McMASTER AFFILIATED AUTHORS</span>
-  </div>
-  <div class="flexcontainer-top" style="padding-top:0px;padding-bottom:40px;">
-    <div class="flexitem-bottom" style="width:80%;flex:1;background-color:#ffffff;border-radius:6px;">
-      <table id="table1" class="stripe" style="width:100%;max-height:200px;"></table><br>
-      <span style="font-size:11px;">Authors affiliated with McMaster Engineering are highlighted in bold</span><br>
-      <span style="font-size:11px;">Current McMaster Engineering faculty members are denoted by an asterisk</span>
+  <br><br><br><br><br>
+  <div class="flexcontainer-top">
+    <div id="bans">
+      <div class="circle-blue"></div>
+      <div class="circle-green"></div>
+      <p>
+        <span id="bans_num">75</span>
+        <span id="bans_info">researchers in the top 2% of their sub-field are proudly affiliated with </span><span id="ban_eng">McMaster Engineering</span><br><br>
+      </p><br>
+      <p>
+        <span id="bans_num">340</span>
+        <span id="bans_info">researchers in the top 2% of their sub-field are proudly affiliated with </span><span id="ban_uni">McMaster University</span><br><br>
+      </p>
     </div>
   </div>
 
+  <div class="flexcontainer-top" style="padding-top:0px;padding-bottom:50px;">
+    <div id="macauth">
+      <img src="https://dl.dropbox.com/s/gvb9asfq5vuambt/1200px-Uni_mcmaster_logo.png?dl=0" width="36px" height="42px"></img>
+      <span style="position:relative;float:left;letter-spacing:1px;font-weight:bold;font-size:20px;left:45px;top:0px;z-index:1;">McMASTER ENGINEERING<br>AFFILIATED AUTHORS</span>
+    </div>
+      <div class="flexitem-bottom" style="width:80%;flex:1;background-color:#ffffff;border-radius:6px;">
+        <table id="table1" class="stripe" style="width:100%;max-height:200px;"></table><br>
+        <span style="font-size:11px;">Current McMaster Engineering faculty members are denoted by an asterisk</span>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
   <div>
-    <span style="letter-spacing:1px;font-weight:bold;font-size:20px;margin-left:18px;z-index:1;">EXPLORE A FIELD OF RESEARCH</span>
+    <span style="letter-spacing:1px;font-weight:bold;font-size:20px;margin-left:25px;z-index:1;">EXPLORE A FIELD OF RESEARCH</span>
   </div>
 
   <div class="subjFilter">
@@ -104,6 +133,7 @@
       </ul>
     </div>
   </div>
+  <br><br><br>
 
 
   <script src="js/visuals.js"></script>
